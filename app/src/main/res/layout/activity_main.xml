@@ -22,6 +22,8 @@
             android:id="@+id/imageView"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:contentDescription="@string/logo_description"
+            android:paddingBottom="60dp"
             app:srcCompat="@drawable/dicee_logo" />
     </RelativeLayout>
 
@@ -36,14 +38,14 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            app:srcCompat="@drawable/dice2" />
+            app:srcCompat="@drawable/dice2" android:contentDescription="@string/dice_left_description" />
 
         <ImageView
             android:id="@+id/diceRight"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            app:srcCompat="@drawable/dice1" />
+            app:srcCompat="@drawable/dice1" android:contentDescription="@string/dice_right_description" />
     </LinearLayout>
 
     <RelativeLayout
@@ -57,11 +59,12 @@
             android:layout_centerHorizontal="true"
             android:layout_centerVertical="true"
             android:layout_marginBottom="158dp"
+            android:width="120dp"
+            android:height="65dp"
             android:background="@color/buttonBgr"
+            android:maxHeight="100dp"
             android:text="@string/button_text"
-            android:textColor="@color/buttonText"
-
-            />
+            android:textColor="@color/buttonText" />
     </RelativeLayout>
 
 

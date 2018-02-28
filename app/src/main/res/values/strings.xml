@@ -1,4 +1,7 @@
 <resources>
     <string name="app_name">Dicee</string>
     <string name="button_text">Roll</string>
+    <string name="logo_description">Las Vegas style logo</string>
+    <string name="dice_left_description">Dice on the left</string>
+    <string name="dice_right_description">Dice on the right</string>
 </resources>
